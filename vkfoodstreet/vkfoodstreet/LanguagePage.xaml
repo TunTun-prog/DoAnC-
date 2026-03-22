@@ -1,0 +1,17 @@
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="vkfoodstreet.LanguagePage">
+
+    <VerticalStackLayout Padding="30" Spacing="20">
+
+        <Label 
+            Text="Chọn ngôn ngữ / Choose language"
+            FontSize="24"
+            HorizontalOptions="Center"/>
+
+        <Button Text="Tiếng Việt" Clicked="OnVietnameseClicked"/>
+        <Button Text="English" Clicked="OnEnglishClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
