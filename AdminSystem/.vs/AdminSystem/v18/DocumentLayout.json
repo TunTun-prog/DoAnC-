@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\DoAnC-\\AdminSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\controllers\\quayhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:controllers\\quayhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\models\\quayhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:models\\quayhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\migrations\\20260315074827_addquayhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\migrations\\20260315074827_addquayhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\migrations\\20260405105645_add_audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\migrations\\20260405105645_add_audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\migrations\\20260405095742_update_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\migrations\\20260405095742_update_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\data\\migrations\\20260405103515_add_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:data\\migrations\\20260405103515_add_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\Create.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Create.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\Create.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAqwJcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\Details.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Details.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAApwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\Index.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Index.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAnwD4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20260405105645_add_audio.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405105645_add_audio.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260405105645_add_audio.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405105645_add_audio.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260405105645_add_audio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-05T11:50:36.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Edit.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAASwEYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuayHangsController.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\QuayHangsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuayHangsController.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\QuayHangsController.cs",
+              "RelativeToolTip": "Controllers\\QuayHangsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswEYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-05T11:50:36.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260315074827_AddQuayHang.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260315074827_AddQuayHang.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260315074827_AddQuayHang.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260315074827_AddQuayHang.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260315074827_AddQuayHang.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260405095742_update_map.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405095742_update_map.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260405095742_update_map.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405095742_update_map.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260405095742_update_map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuayHang.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\QuayHang.cs",
+              "RelativeDocumentMoniker": "Models\\QuayHang.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\QuayHang.cs",
+              "RelativeToolTip": "Models\\QuayHang.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA8wAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260405103515_add_image.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405103515_add_image.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260405103515_add_image.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405103515_add_image.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260405103515_add_image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.541Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

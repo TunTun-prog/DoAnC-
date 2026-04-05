@@ -1,0 +1,82 @@
+﻿@model IEnumerable<AdminSystem.Models.QuayHang>
+
+@{
+    ViewData["Title"] = "Danh sách quầy hàng";
+}
+
+<h1>Danh sách quầy hàng</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Thêm quầy hàng mới</a>
+</p>
+
+<table class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Tên</th>
+            <th>Mô tả</th>
+            <th>Vị trí</th>
+            <th>Người quản lý</th>
+            <th>Thời gian tạo</th>
+            <th class="text-center" style="width:120px;">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @if (!string.IsNullOrEmpty(item.CoverImagePath))
+                {
+                    <img src="@item.CoverImagePath" alt="@item.Ten" style="height:48px; width:64px; object-fit:cover; border-radius:4px;" />
+                }
+            </td>
+            <td>@Html.DisplayFor(modelItem => item.Ten)</td>
+            <td class="text-truncate" style="max-width:320px;">@Html.DisplayFor(modelItem => item.MoTa)</td>
+            <td>@Html.DisplayFor(modelItem => item.ViTri)</td>
+            <td>@Html.DisplayFor(modelItem => item.NguoiQuanLy)</td>
+            <td>@item.CreatedUtc.ToString("yyyy-MM-dd HH:mm")</td>
+            <td class="text-center">
+                <a asp-action="Edit" asp-route-id="@item.Id" class="text-decoration-none me-2" title="Chỉnh sửa" aria-label="Edit">
+                    <i class="fa fa-pen-to-square"></i>
+                </a>
+
+                <a asp-action="Details" asp-route-id="@item.Id" class="text-decoration-none me-2" title="Chi tiết" aria-label="Details">
+                        <i class="fa fa-eye"></i>
+                </a>
+
+                <!-- delete form: add class and data-name (JSON-encoded to avoid quoting issues) -->
+                <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline delete-form"
+                          data-name="@item.Ten">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-link p-0 text-danger" title="Xóa" aria-label="Delete">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.delete-form').forEach(function (form) {
+                form.addEventListener('submit', function (e) {
+                    // dataset.name contains JSON-quoted string, parse to get raw name
+                    var raw = form.dataset.name || '""';
+                    try {
+                        var name = JSON.parse(raw);
+                    } catch (err) {
+                        var name = raw;
+                    }
+                    var msg = 'Bạn có chắc muốn xóa quầy hàng: ' + name + ' ?';
+                    if (!confirm(msg)) {
+                        e.preventDefault();
+                    }
+                });
+            });
+        });
+    </script>
+}
