@@ -1,0 +1,29 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             x:Class="vinhkhanh.DetailPage">
+
+    <Grid>
+
+        <!-- MAP -->
+        <maps:Map x:Name="MyMap"
+                  HeightRequest="250"/>
+
+        <!-- CONTENT -->
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="10">
+
+                <Label x:Name="nameLabel" FontSize="30"/>
+                <Image x:Name="img1"/>
+                <Image x:Name="img2"/>
+                <Label x:Name="descLabel"/>
+
+                <Button Text="📍 Đến vị trí"
+                        Clicked="LocateBtn_Clicked"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>
