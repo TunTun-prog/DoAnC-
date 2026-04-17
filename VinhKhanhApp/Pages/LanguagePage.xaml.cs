@@ -12,9 +12,9 @@ public partial class LanguagePage : ContentPage
         InitializeComponent();
     }
 
-    void OnVN(object sender, EventArgs e)
+    void ChangeLanguage(string lang)
     {
-        LocalizationService.CurrentLanguage = "vi";
+        LocalizationService.CurrentLanguage = lang;
 
         if (Application.Current?.Windows.Count > 0)
         {
@@ -23,14 +23,9 @@ public partial class LanguagePage : ContentPage
         }
     }
 
-    void OnEN(object sender, EventArgs e)
-    {
-        LocalizationService.CurrentLanguage = "en";
-
-        if (Application.Current?.Windows.Count > 0)
-        {
-            Application.Current.Windows[0].Page =
-                new NavigationPage(new HomePage());
-        }
-    }
+    void OnVN(object sender, EventArgs e) => ChangeLanguage("vi");
+    void OnEN(object sender, EventArgs e) => ChangeLanguage("en");
+    void OnDE(object sender, EventArgs e) => ChangeLanguage("de");
+    void OnJP(object sender, EventArgs e) => ChangeLanguage("ja");
+    void OnZH(object sender, EventArgs e) => ChangeLanguage("zh");
 }

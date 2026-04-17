@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj": {}
+    "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj": {
+    "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
         "projectName": "VinhKhanhApp",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
