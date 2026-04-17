@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\locallizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\locallizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\languagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\languagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\locallizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\locallizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\vinhkhanhapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -113,13 +113,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LanguagePage.xaml",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\LanguagePage.xaml",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml",
               "RelativeToolTip": "VinhKhanhApp\\Pages\\LanguagePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-11T13:16:15.767Z",
               "EditorCaption": ""
@@ -128,24 +128,23 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "VinhKhanhApp.csproj",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
               "RelativeDocumentMoniker": "VinhKhanhApp\\VinhKhanhApp.csproj",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
               "RelativeToolTip": "VinhKhanhApp\\VinhKhanhApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-11T13:07:04.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T13:07:04.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "LanguagePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
               "RelativeToolTip": "VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T13:12:07.866Z",
               "EditorCaption": ""
@@ -158,14 +157,14 @@
               "RelativeDocumentMoniker": "VinhKhanhApp\\Serives\\LocallizationService.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\LocallizationService.cs",
               "RelativeToolTip": "VinhKhanhApp\\Serives\\LocallizationService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T13:11:06.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LocationService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\LocationService.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Serives\\LocationService.cs",
@@ -173,12 +172,11 @@
               "RelativeToolTip": "VinhKhanhApp\\Serives\\LocationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T13:11:30.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T13:11:30.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\App.xaml.cs",
@@ -199,8 +197,7 @@
               "RelativeToolTip": "VinhKhanhApp\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-11T13:09:44.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T13:09:44.093Z"
             },
             {
               "$type": "Document",
@@ -218,13 +215,12 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "VinhKhanhApp",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
               "RelativeDocumentMoniker": "VinhKhanhApp\\VinhKhanhApp.csproj",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
               "RelativeToolTip": "VinhKhanhApp\\VinhKhanhApp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-11T14:05:36.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T14:05:36.723Z"
             },
             {
               "$type": "Document",

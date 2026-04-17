@@ -9,9 +9,10 @@ namespace VinhKhanhApp.Pages;
 [SupportedOSPlatform("ios")]
 public partial class HomePage : ContentPage
 {
-    List<FoodPlace> places;
-    LocationService locationService = new LocationService();
-    bool hasSpoken = false;
+    List<FoodPlace> places = new();
+    LocationService locationService = new();
+
+    HashSet<string> spokenPlaces = new();
 
     public HomePage()
     {
@@ -24,14 +25,14 @@ public partial class HomePage : ContentPage
         {
             new FoodPlace{
                 Name="Ốc Oanh",
-                Description="Quán ốc nổi tiếng tại Vĩnh Khánh",
+                Description=LocalizationService.Translate("oc_oanh"),
                 Latitude=10.759,
                 Longitude=106.705,
                 Rating=4.5
             },
             new FoodPlace{
                 Name="Ốc Đào",
-                Description="Quán ốc đông khách, giá hợp lý",
+                Description=LocalizationService.Translate("oc_dao"),
                 Latitude=10.760,
                 Longitude=106.706,
                 Rating=4.6
@@ -47,21 +48,28 @@ public partial class HomePage : ContentPage
     {
         base.OnAppearing();
 
-        var status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+        try
+        {
+            var status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
 
-        if (status == PermissionStatus.Granted)
-        {
-            await locationService.StartListening();
+            if (status == PermissionStatus.Granted)
+            {
+                await locationService.StartListening();
+            }
+            else
+            {
+                await DisplayAlertAsync("Error", "Không có quyền GPS", "OK");
+            }
         }
-        else
+        catch (Exception ex)
         {
-            await DisplayAlertAsync("Error", "Không có quyền GPS", "OK");
+            await DisplayAlertAsync("Error", ex.Message, "OK");
         }
     }
 
     void OnLocationChanged(Location loc)
     {
-        if (hasSpoken) return;
+        if (loc == null) return;
 
         foreach (var p in places)
         {
@@ -70,10 +78,14 @@ public partial class HomePage : ContentPage
                 new Location(p.Latitude, p.Longitude),
                 DistanceUnits.Kilometers);
 
-            if (distance < 0.1)
+            if (distance < 0.1 && !spokenPlaces.Contains(p.Name))
             {
-                hasSpoken = true;
-                _ = TTSService.Speak(p.Description);
+                spokenPlaces.Add(p.Name);
+
+                MainThread.BeginInvokeOnMainThread(async () =>
+                {
+                    await TTSService.Speak(p.Description);
+                });
             }
         }
     }
@@ -81,15 +93,22 @@ public partial class HomePage : ContentPage
     void OnPause(object sender, EventArgs e)
     {
         locationService.Stop();
+        TTSService.Stop(); 
     }
 
     async void OnSelected(object sender, SelectionChangedEventArgs e)
     {
-        var place = e.CurrentSelection.FirstOrDefault() as FoodPlace;
-
-        if (place != null)
+        try
         {
+            var place = e.CurrentSelection.FirstOrDefault() as FoodPlace;
+
+            if (place == null) return;
+
             await Navigation.PushAsync(new DetailPage(place));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlertAsync("Error", ex.Message, "OK");
         }
     }
 }
