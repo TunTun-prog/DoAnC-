@@ -4,28 +4,22 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="VinhKhanhApp.Pages.DetailPage">
 
-	<ScrollView>
-		<VerticalStackLayout Padding="20" Spacing="10">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
 
-			<Label
-                x:Name="NameLabel"
-                FontSize="22"
-                FontAttributes="Bold"/>
+            <Label x:Name="NameLabel" FontSize="22" FontAttributes="Bold"/>
+            <Label x:Name="DescLabel" FontSize="16"/>
+            <Label x:Name="AddressLabel" FontSize="14"/>
+            <Label x:Name="RatingLabel" FontSize="16"/>
 
-			<Label
-                x:Name="DescLabel"
-                FontSize="16"/>
+            <Button Text="Play" Clicked="OnPlay"/>
 
-			<Label
-                x:Name="RatingLabel"
-                FontSize="16"/>
-
-			<Button
+            <Button
                 x:Name="DirectionBtn"
                 Text="Direction"
                 Clicked="OnDirection"/>
 
-		</VerticalStackLayout>
-	</ScrollView>
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>

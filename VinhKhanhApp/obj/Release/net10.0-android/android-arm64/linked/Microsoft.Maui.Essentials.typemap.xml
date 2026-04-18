@@ -1,5 +1,5 @@
-<api type="release" assembly-name="Microsoft.Maui.Essentials" mvid="a8ce777dbc984856832b8119802dae85">
-  <module assembly-name="Microsoft.Maui.Essentials" mvid="a8ce777dbc984856832b8119802dae85" mvid-bytes="fXfOqJi8VkiDK4EZgC2uhQ==">
+<api type="release" assembly-name="Microsoft.Maui.Essentials" mvid="a42429bb6c434b0fb9ea27701685dc3e">
+  <module assembly-name="Microsoft.Maui.Essentials" mvid="a42429bb6c434b0fb9ea27701685dc3e" mvid-bytes="uykkpENsD0u56idwFoXcPg==">
     <types-scratch>
       <entry key="crc6468b6408a11370c2f/WebAuthenticatorIntermediateActivity" java-name="crc6468b6408a11370c2f/WebAuthenticatorIntermediateActivity" managed-type-name="Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity" token="33554443" />
       <entry key="crc6493855b22b6fa0721/TextToSpeechInternalImplementation" java-name="crc6493855b22b6fa0721/TextToSpeechInternalImplementation" managed-type-name="Microsoft.Maui.Media.TextToSpeechInternalImplementation" token="33554463" />

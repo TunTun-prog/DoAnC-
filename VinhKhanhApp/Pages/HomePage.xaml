@@ -2,34 +2,60 @@
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="VinhKhanhApp.Pages.HomePage">
+    xmlns:models="clr-namespace:VinhKhanhApp.Models"
+    x:Class="VinhKhanhApp.Pages.HomePage"
+    x:DataType="x:Object">
+    <!-- 🔥 THÊM DÒNG NÀY -->
 
-	<VerticalStackLayout Padding="10" Spacing="10">
+    <VerticalStackLayout Padding="10" Spacing="10">
 
-		<Label
+        <Label
             x:Name="TitleLabel"
             FontSize="20"
             HorizontalOptions="Center"/>
 
-		<CollectionView
-            x:Name="FoodList"
-            SelectionChanged="OnSelected">
+        <CollectionView x:Name="FoodList" SelectionChanged="OnSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:FoodPlace">
 
-			<CollectionView.ItemTemplate>
-				<DataTemplate>
-					<Frame Margin="5" Padding="10">
-						<Label Text="{Binding Name}" FontSize="16"/>
-					</Frame>
-				</DataTemplate>
-			</CollectionView.ItemTemplate>
+                    <Border
+                        Stroke="#ccc"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 12"
+                        Padding="10"
+                        Margin="5">
 
-		</CollectionView>
+                        <VerticalStackLayout>
 
-		<Button
+                            <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold"/>
+                            <Label Text="{Binding Address}" FontSize="13"/>
+                            <Label Text="{Binding Rating, StringFormat='Rating: {0}'}"/>
+
+                            <HorizontalStackLayout Spacing="10">
+
+                                <Button Text="▶"
+                                        Clicked="OnPlayClicked"
+                                        CommandParameter="{Binding}"/>
+
+                                <Button Text="📍"
+                                        Clicked="OnDirectionClicked"
+                                        CommandParameter="{Binding}"/>
+
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+
+                    </Border>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button
             x:Name="PauseBtn"
             Text="Pause"
             Clicked="OnPause"/>
 
-	</VerticalStackLayout>
+    </VerticalStackLayout>
 
 </ContentPage>

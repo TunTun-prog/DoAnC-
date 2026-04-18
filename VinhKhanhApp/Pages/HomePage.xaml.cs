@@ -11,6 +11,7 @@ public partial class HomePage : ContentPage
 {
     List<FoodPlace> places = new();
     LocationService locationService = new();
+    FoodService foodService = new();
 
     HashSet<string> spokenPlaces = new();
 
@@ -21,26 +22,6 @@ public partial class HomePage : ContentPage
         TitleLabel.Text = LocalizationService.Translate("title");
         PauseBtn.Text = LocalizationService.Translate("pause");
 
-        places = new List<FoodPlace>()
-        {
-            new FoodPlace{
-                Name="Ốc Oanh",
-                Description=LocalizationService.Translate("oc_oanh"),
-                Latitude=10.759,
-                Longitude=106.705,
-                Rating=4.5
-            },
-            new FoodPlace{
-                Name="Ốc Đào",
-                Description=LocalizationService.Translate("oc_dao"),
-                Latitude=10.760,
-                Longitude=106.706,
-                Rating=4.6
-            }
-        };
-
-        FoodList.ItemsSource = places;
-
         locationService.OnLocationChanged += OnLocationChanged;
     }
 
@@ -50,6 +31,9 @@ public partial class HomePage : ContentPage
 
         try
         {
+            places = await foodService.GetFoods();
+            FoodList.ItemsSource = places;
+
             var status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
 
             if (status == PermissionStatus.Granted)
@@ -90,25 +74,39 @@ public partial class HomePage : ContentPage
         }
     }
 
+    async void OnPlayClicked(object sender, EventArgs e)
+    {
+        var btn = sender as Button;
+        var place = btn?.CommandParameter as FoodPlace;
+
+        if (place == null) return;
+
+        await TTSService.Speak(place.Description);
+    }
+
+    async void OnDirectionClicked(object sender, EventArgs e)
+    {
+        var btn = sender as Button;
+        var place = btn?.CommandParameter as FoodPlace;
+
+        if (place == null) return;
+
+        await Launcher.OpenAsync(
+            $"https://www.google.com/maps/dir/?api=1&destination={place.Latitude},{place.Longitude}");
+    }
+
     void OnPause(object sender, EventArgs e)
     {
         locationService.Stop();
-        TTSService.Stop(); 
+        TTSService.Stop();
     }
 
     async void OnSelected(object sender, SelectionChangedEventArgs e)
     {
-        try
-        {
-            var place = e.CurrentSelection.FirstOrDefault() as FoodPlace;
+        var place = e.CurrentSelection.FirstOrDefault() as FoodPlace;
 
-            if (place == null) return;
+        if (place == null) return;
 
-            await Navigation.PushAsync(new DetailPage(place));
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlertAsync("Error", ex.Message, "OK");
-        }
+        await Navigation.PushAsync(new DetailPage(place));
     }
 }
