@@ -6,6 +6,7 @@ namespace VinhKhanhApp.Pages;
 public partial class DetailPage : ContentPage
 {
     FoodPlace place;
+    TranslateService translateService = new(); // 🔥 thêm
 
     public DetailPage(FoodPlace p)
     {
@@ -23,7 +24,11 @@ public partial class DetailPage : ContentPage
 
     async void OnPlay(object sender, EventArgs e)
     {
-        await TTSService.Speak(place.Description);
+        var translated = await translateService.Translate(
+            place.Description,
+            LocalizationService.CurrentLanguage);
+
+        await TTSService.Speak(translated);
     }
 
     async void OnDirection(object sender, EventArgs e)

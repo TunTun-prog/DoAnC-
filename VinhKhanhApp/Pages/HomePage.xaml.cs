@@ -12,6 +12,7 @@ public partial class HomePage : ContentPage
     List<FoodPlace> places = new();
     LocationService locationService = new();
     FoodService foodService = new();
+    TranslateService translateService = new(); // 🔥 thêm
 
     HashSet<string> spokenPlaces = new();
 
@@ -51,7 +52,7 @@ public partial class HomePage : ContentPage
         }
     }
 
-    void OnLocationChanged(Location loc)
+    async void OnLocationChanged(Location loc)
     {
         if (loc == null) return;
 
@@ -66,9 +67,13 @@ public partial class HomePage : ContentPage
             {
                 spokenPlaces.Add(p.Name);
 
+                var translated = await translateService.Translate(
+                    p.Description,
+                    LocalizationService.CurrentLanguage);
+
                 MainThread.BeginInvokeOnMainThread(async () =>
                 {
-                    await TTSService.Speak(p.Description);
+                    await TTSService.Speak(translated);
                 });
             }
         }
@@ -81,7 +86,11 @@ public partial class HomePage : ContentPage
 
         if (place == null) return;
 
-        await TTSService.Speak(place.Description);
+        var translated = await translateService.Translate(
+            place.Description,
+            LocalizationService.CurrentLanguage);
+
+        await TTSService.Speak(translated);
     }
 
     async void OnDirectionClicked(object sender, EventArgs e)
