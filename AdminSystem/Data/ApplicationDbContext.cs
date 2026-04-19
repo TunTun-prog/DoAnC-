@@ -10,6 +10,8 @@ namespace AdminSystem.Data
             : base(options)
         {
         }
+
         public DbSet<QuayHang> QuayHangs { get; set; }
+        public DbSet<AccessLog> AccessLogs { get; set; }
     }
 }

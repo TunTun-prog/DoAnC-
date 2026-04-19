@@ -22,6 +22,35 @@ namespace AdminSystem.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("AdminSystem.Models.AccessLog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("IpAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Language")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("QuayHangId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("VisitTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuayHangId");
+
+                    b.ToTable("AccessLogs");
+                });
+
             modelBuilder.Entity("AdminSystem.Models.QuayHang", b =>
                 {
                     b.Property<int>("Id")
@@ -269,6 +298,17 @@ namespace AdminSystem.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("AdminSystem.Models.AccessLog", b =>
+                {
+                    b.HasOne("AdminSystem.Models.QuayHang", "QuayHang")
+                        .WithMany()
+                        .HasForeignKey("QuayHangId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("QuayHang");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

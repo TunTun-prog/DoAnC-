@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AdminSystem.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
@@ -21,10 +22,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        @if(SignInManager.IsSignedIn(User)) {
+                    <ul class="navbar-nav flex-grow-1 d-md-none">
+                        @* Mobile: show main nav items inside collapsed navbar *@
+                        @if (SignInManager.IsSignedIn(User))
+                        {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="QuayHangs" asp-action="Index">Quầy Hàng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Index">Lượt truy cập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Stats">Thống kê</a>
                             </li>
                         }
                     </ul>
@@ -33,10 +42,40 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar (visible on md+) -->
+            <nav id="sidebar" class="col-md-2 d-none d-md-block bg-light sidebar pt-3">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item mb-1">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="QuayHangs" asp-action="Index">
+                                    <i class="fa-solid fa-shop me-2"></i> Quầy Hàng
+                                </a>
+                            </li>
+                            <li class="nav-item mb-1">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Index">
+                                    <i class="fa-solid fa-list-check me-2"></i> Lượt truy cập
+                                </a>
+                            </li>
+                            <li class="nav-item mb-1">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Stats">
+                                    <i class="fa-solid fa-chart-simple me-2"></i> Thống kê
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content -->
+            <main role="main" class="col-12 col-md-10 px-4 py-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
@@ -44,6 +83,7 @@
             &copy; 2026 - AdminSystem - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

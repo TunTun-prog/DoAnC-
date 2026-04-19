@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="vkfoodstreet" mvid="3e0bf2f927cd4d11acf48c632cc8785d">
+  <java-to-managed>
+    <entry java-name="crc6457a227ba8a5b35b1/MainActivity" managed-name="vkfoodstreet.MainActivity, vkfoodstreet" managed-type-token-id="33554445" />
+    <entry java-name="crc6457a227ba8a5b35b1/MainApplication" managed-name="vkfoodstreet.MainApplication, vkfoodstreet" managed-type-token-id="33554446" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6457a227ba8a5b35b1/MainActivity" managed-name="vkfoodstreet.MainActivity, vkfoodstreet" managed-type-token-id="33554445" />
+    <entry java-name="crc6457a227ba8a5b35b1/MainApplication" managed-name="vkfoodstreet.MainApplication, vkfoodstreet" managed-type-token-id="33554446" />
+  </managed-to-java>
+</api>

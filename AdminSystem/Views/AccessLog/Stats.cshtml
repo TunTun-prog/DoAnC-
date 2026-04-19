@@ -1,0 +1,278 @@
+﻿@{
+    ViewData["Title"] = "Thống kê lượt truy cập (Map + Chart)";
+}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+<style>
+    /* Map and charts full width */
+    #map {
+        width: 100%;
+        height: 420px;
+        min-height: 240px;
+        margin-bottom: 12px;
+    }
+
+    .chart-container {
+        position: relative;
+        width: 100%;
+        height: 360px;
+        min-height: 200px;
+        margin-bottom: 12px;
+    }
+
+    .chart-container--small {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        min-height: 160px;
+        margin-bottom: 12px;
+    }
+
+</style>
+
+<div class="container mt-4">
+    <h1>Thống kê lượt truy cập theo ngày</h1>
+    <hr />
+
+    <form id="heatmapFilterForm" class="row g-3 align-items-end mb-3">
+        <div class="col-auto">
+            <label class="form-label">Từ</label>
+            <input type="date" id="hmStart" name="startDate" class="form-control" />
+        </div>
+        <div class="col-auto">
+            <label class="form-label">Đến</label>
+            <input type="date" id="hmEnd" name="endDate" class="form-control" />
+        </div>
+
+        <div class="col-auto">
+            <button type="button" id="loadHeatmapBtn" class="btn btn-primary">Tải</button>
+            <a class="btn btn-outline-secondary" href="/AccessLog/Stats">Xóa</a>
+        </div>
+    </form>
+
+    <!-- Map on top (full width) -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div id="map" aria-hidden="false"></div>
+        </div>
+    </div>
+
+    <!-- Charts below: totals per day (large) and top5 kiosks (small) -->
+    <div class="row mb-2">
+        <div class="col-12">
+            <div class="chart-container">
+                <canvas id="totalsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="chart-container--small">
+                <canvas id="topKiosksChart"></canvas>
+            </div>
+            <div class="mt-2"><small class="text-muted"></small></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Chart.js UMD -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <!-- Leaflet + leaflet.heat (no API key needed; uses OpenStreetMap tiles) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+    <script>
+        function normalizeTopLevelKeysToCamel(obj) {
+            if (!obj || typeof obj !== 'object') return obj;
+            const normalized = {};
+            Object.keys(obj).forEach(key => {
+                const camelKey = key.charAt(0).toLowerCase() + key.slice(1);
+                normalized[camelKey] = obj[key];
+            });
+            return normalized;
+        }
+
+        function interpolateColorGreenToRed(ratio) {
+            const rLow = 179, gLow = 0, bLow = 0;
+            const rHigh = 0, gHigh = 176, bHigh = 80;
+            const r = Math.round(rLow + (rHigh - rLow) * ratio);
+            const g = Math.round(gLow + (gHigh - gLow) * ratio);
+            const b = Math.round(bLow + (bHigh - bLow) * ratio);
+            return `rgb(${r},${g},${b})`;
+        }
+
+        let totalsChart = null;
+        let topKiosksChart = null;
+        let leafletMap = null;
+        let leafletHeat = null;
+        let leafletMarkers = [];
+
+        async function loadHeatmap(start, end) {
+            if (!start || !end) {
+                alert('Vui lòng chọn cả ngày bắt đầu và ngày kết thúc.');
+                return;
+            }
+            if (new Date(start) > new Date(end)) {
+                alert('Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày kết thúc.');
+                return;
+            }
+
+            const params = new URLSearchParams();
+            params.append('startDate', start);
+            params.append('endDate', end);
+
+            const res = await fetch('/AccessLog/GetHeatmapData?' + params.toString());
+            if (!res.ok) {
+                console.error('Failed to load heatmap data', res.status, await res.text());
+                alert('Không thể tải dữ liệu. Kiểm tra console để biết chi tiết.');
+                return;
+            }
+
+            const raw = await res.json();
+            const data = normalizeTopLevelKeysToCamel(raw);
+
+            const dates = data.dates || [];
+            const totals = data.totals || dates.map(() => 0);
+            const kioskPoints = data.kioskPoints || [];
+
+            // --- Totals per day chart (with title positioned below the chart) ---
+            const ctxTotals = document.getElementById('totalsChart').getContext('2d');
+            if (totalsChart) totalsChart.destroy();
+            totalsChart = new Chart(ctxTotals, {
+                type: 'bar',
+                data: {
+                    labels: dates,
+                    datasets: [{
+                        label: 'Tổng lượt truy cập',
+                        data: totals,
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: 'Tổng lượt truy cập theo ngày', position: 'bottom' },
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { ticks: { maxRotation: 90, minRotation: 45 } },
+                        y: { beginAtZero: true, ticks: { precision: 0 } }
+                    }
+                }
+            });
+
+            // --- Top 5 kiosks (sorted descending) and title below the chart ---
+            const top = (kioskPoints.slice() || [])
+                .filter(p => p && (p.total !== undefined))
+                .sort((a,b) => (b.total || 0) - (a.total || 0))
+                .slice(0,5);
+
+            const topLabels = top.map(p => p.name || `Quầy ${p.id}`);
+            const topData = top.map(p => p.total || 0);
+
+            const ctxTop = document.getElementById('topKiosksChart').getContext('2d');
+            if (topKiosksChart) topKiosksChart.destroy();
+            topKiosksChart = new Chart(ctxTop, {
+                type: 'bar',
+                data: {
+                    labels: topLabels,
+                    datasets: [{
+                        label: 'Lượt truy cập',
+                        data: topData,
+                        backgroundColor: topData.map((v,i) => `rgba(255, ${120 - i*15}, ${60 + i*30}, 0.8)`),
+                        borderColor: 'rgba(0,0,0,0.05)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: 'Top 5 quầy hàng có lượng truy cập nhiều nhất', position: 'bottom' },
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { beginAtZero: true, ticks: { precision: 0 } },
+                        y: { ticks: { autoSkip: false } }
+                    }
+                }
+            });
+
+            // --- Leaflet heatmap ---
+            const pointsWithCoords = kioskPoints.filter(p => p.latitude !== null && p.longitude !== null);
+            if (pointsWithCoords.length === 0) {
+                if (leafletHeat) { leafletHeat.remove(); leafletHeat = null; }
+                leafletMarkers.forEach(m => leafletMap && leafletMap.removeLayer(m));
+                leafletMarkers = [];
+                return;
+            }
+
+            const avgLat = pointsWithCoords.reduce((s,p)=>s+(p.latitude||0),0) / pointsWithCoords.length;
+            const avgLng = pointsWithCoords.reduce((s,p)=>s+(p.longitude||0),0) / pointsWithCoords.length;
+
+            if (!leafletMap) {
+                leafletMap = L.map('map', { preferCanvas: true }).setView([avgLat, avgLng], 14);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: '&copy; OpenStreetMap contributors'
+                }).addTo(leafletMap);
+            } else {
+                leafletMap.setView([avgLat, avgLng], 14);
+            }
+
+            if (leafletHeat) { leafletHeat.remove(); leafletHeat = null; }
+            leafletMarkers.forEach(m => leafletMap.removeLayer(m));
+            leafletMarkers = [];
+
+            const heatArray = pointsWithCoords.map(p => {
+                const intensity = Math.max(1, p.total || 1);
+                return [p.latitude, p.longitude, intensity];
+            });
+
+            leafletHeat = L.heatLayer(heatArray, {
+                radius: 25,
+                blur: 15,
+                maxZoom: 17,
+                gradient: {0.2: 'red', 0.5: 'yellow', 1.0: 'green'}
+            }).addTo(leafletMap);
+
+            const maxTotal = Math.max(...pointsWithCoords.map(p => p.total || 0), 1);
+            pointsWithCoords.forEach(p => {
+                const ratio = maxTotal ? ((p.total || 0) / maxTotal) : 0;
+                const color = interpolateColorGreenToRed(ratio);
+                const marker = L.circleMarker([p.latitude, p.longitude], {
+                    radius: 6 + Math.sqrt(p.total || 0),
+                    color: color,
+                    fillColor: color,
+                    fillOpacity: 0.9,
+                    weight: 1
+                }).addTo(leafletMap);
+                marker.bindPopup(`<strong>${p.name}</strong><br/>Total: ${p.total || 0}`);
+                leafletMarkers.push(marker);
+            });
+        }
+
+        document.getElementById('loadHeatmapBtn').addEventListener('click', function () {
+            const s = document.getElementById('hmStart').value;
+            const e = document.getElementById('hmEnd').value;
+            loadHeatmap(s, e);
+        });
+
+        (function init() {
+            const today = new Date();
+            const end = today.toISOString().slice(0, 10);
+            const startDate = new Date(today.getTime() - (29 * 24 * 60 * 60 * 1000));
+            const start = startDate.toISOString().slice(0, 10);
+            document.getElementById('hmStart').value = start;
+            document.getElementById('hmEnd').value = end;
+            loadHeatmap(start, end);
+        })();
+    </script>
+}

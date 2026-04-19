@@ -1,0 +1,155 @@
+﻿@model List<AdminSystem.Models.AccessLog>
+@{
+    ViewData["Title"] = "Quản lý lượt truy cập";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h1>Quản lý lượt truy cập người dùng</h1>
+            <hr />
+        </div>
+    </div>
+
+    <!-- Bộ lọc -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <form method="get" action="@Url.Action("Index", "AccessLog")" class="row g-3" id="accessLogFilterForm">
+                <div class="col-md-2">
+                    <label for="startDate" class="form-label">Từ ngày:</label>
+                    <input type="date" id="startDate" name="startDate" class="form-control" value="@ViewBag.StartDate">
+                </div>
+                <div class="col-md-2">
+                    <label for="endDate" class="form-label">Đến ngày:</label>
+                    <input type="date" id="endDate" name="endDate" class="form-control" value="@ViewBag.EndDate">
+                </div>
+                <div class="col-md-3">
+                    <label for="kioskId" class="form-label">Quầy hàng:</label>
+                    <select id="kioskId" name="kioskId" class="form-select">
+                        <option value="">-- Tất cả --</option>
+                        @if (ViewBag.QuayHangs != null)
+                        {
+                            foreach (var q in (List<AdminSystem.Models.QuayHang>)ViewBag.QuayHangs)
+                            {
+                                <option value="@q.Id" selected=@(ViewBag.FilterKioskId != null && (int)ViewBag.FilterKioskId == q.Id ? "selected" : "")>@q.Ten</option>
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="language" class="form-label">Ngôn ngữ:</label>
+                    <select id="language" name="language" class="form-select">
+                        <option value="">-- Tất cả --</option>
+                        <option value="en" selected="@(ViewBag.FilterLanguage == "en" ? "selected" : null)">Tiếng Anh</option>
+                        <option value="vi" selected="@(ViewBag.FilterLanguage == "vi" ? "selected" : null)">Tiếng Việt</option>
+                        <option value="de" selected="@(ViewBag.FilterLanguage == "de" ? "selected" : null)">Tiếng Đức</option>
+                        <option value="ja" selected="@(ViewBag.FilterLanguage == "ja" ? "selected" : null)">Tiếng Nhật</option>
+                        <option value="zh" selected="@(ViewBag.FilterLanguage == "zh" ? "selected" : null)">Tiếng Trung</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">&nbsp;</label>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                        <a class="btn btn-outline-secondary" href="@Url.Action("Index", "AccessLog")">Xóa tìm kiếm</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bảng dữ liệu -->
+    <div class="row">
+        <div class="col-md-12">
+            @if (Model != null && Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>STT</th>
+                                <th>Thời gian truy cập</th>
+                                <th>IP Address</th>
+                                <th>Quầy hàng</th>
+                                <th>Ngôn ngữ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int index = ((int)ViewBag.CurrentPage - 1) * (int)ViewBag.PageSize + 1;
+                            }
+                            @foreach (var log in Model)
+                            {
+                                <tr>
+                                    <td>@index</td>
+                                    <td>@log.VisitTime.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                                    <td>@log.IpAddress</td>
+                                    <td>@(log.QuayHang?.Ten ?? log.QuayHangId.ToString())</td>
+                                    <td>@GetLanguageName(log.Language)</td>
+                                </tr>
+                                index++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Phân trang -->
+                @if ((int)ViewBag.TotalPages > 1)
+                {
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item @((int)ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("Index", "AccessLog", new { page = 1, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate, kioskId = ViewBag.FilterKioskId, language = ViewBag.FilterLanguage })">Đầu tiên</a>
+                            </li>
+                            @for (int i = Math.Max(1, (int)ViewBag.CurrentPage - 2); i <= Math.Min((int)ViewBag.TotalPages, (int)ViewBag.CurrentPage + 2); i++)
+                            {
+                                <li class="page-item @((int)ViewBag.CurrentPage == i ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("Index", "AccessLog", new { page = i, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate, kioskId = ViewBag.FilterKioskId, language = ViewBag.FilterLanguage })">@i</a>
+                                </li>
+                            }
+                            <li class="page-item @((int)ViewBag.CurrentPage == (int)ViewBag.TotalPages ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("Index", "AccessLog", new { page = ViewBag.TotalPages, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate, kioskId = ViewBag.FilterKioskId, language = ViewBag.FilterLanguage })">Cuối cùng</a>
+                            </li>
+                        </ul>
+                    </nav>
+                }
+            }
+            else
+            {
+                <div class="alert alert-info">Không có dữ liệu lượt truy cập.</div>
+            }
+        </div>
+    </div>
+</div>
+
+@functions {
+    private string GetLanguageName(string code)
+    {
+        return code switch
+        {
+            "en" => "Tiếng Anh",
+            "vi" => "Tiếng Việt",
+            "de" => "Tiếng Đức",
+            "ja" => "Tiếng Nhật",
+            "zh" => "Tiếng Trung",
+            _ => "Không xác định"
+        };
+    }
+}
+
+@section Scripts {
+    <script>
+        // client-side reset: clear form fields without reloading
+        document.getElementById('resetFiltersBtn')?.addEventListener('click', function () {
+            var form = document.getElementById('accessLogFilterForm');
+            if (!form) return;
+            form.querySelectorAll('input[type="date"], input[type="text"], select').forEach(function (el) {
+                if (el.tagName.toLowerCase() === 'select') {
+                    el.selectedIndex = 0;
+                } else {
+                    el.value = '';
+                }
+            });
+        });
+    </script>
+}
