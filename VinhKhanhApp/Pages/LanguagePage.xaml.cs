@@ -12,15 +12,12 @@ public partial class LanguagePage : ContentPage
         InitializeComponent();
     }
 
-    void ChangeLanguage(string lang)
+    async void ChangeLanguage(string lang)
     {
         LocalizationService.CurrentLanguage = lang;
 
-        if (Application.Current?.Windows.Count > 0)
-        {
-            Application.Current.Windows[0].Page =
-                new NavigationPage(new HomePage());
-        }
+        
+        await Navigation.PushAsync(new HomePage());
     }
 
     void OnVN(object sender, EventArgs e) => ChangeLanguage("vi");

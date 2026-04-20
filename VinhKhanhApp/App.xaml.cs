@@ -2,7 +2,7 @@
 
 namespace VinhKhanhApp;
 
-public partial class App : Microsoft.Maui.Controls.Application
+public partial class App : Application
 {
     public App()
     {

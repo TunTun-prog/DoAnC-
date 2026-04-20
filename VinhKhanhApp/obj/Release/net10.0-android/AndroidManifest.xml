@@ -11,7 +11,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-  <application android:allowBackup="true" android:supportsRtl="true" android:name="crc64f6d71881c6347fee.MainApplication" android:label="VinhKhanhApp" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:name="crc64f6d71881c6347fee.MainApplication" android:label="VinhKhanhApp" android:extractNativeLibs="true">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity" />
     <provider android:authorities="com.companyname.vinhkhanhapp.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="microsoft.maui.essentials.fileProvider">

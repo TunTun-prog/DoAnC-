@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VinhKhanhApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf5ebaa44f3f3a9aab8f48c224e73f8e328ed374")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df8589e0e0aec616503f096bb159cb4bc3128f1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("VinhKhanhApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VinhKhanhApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

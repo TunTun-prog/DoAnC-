@@ -6,7 +6,7 @@ namespace VinhKhanhApp.Pages;
 public partial class DetailPage : ContentPage
 {
     FoodPlace place;
-    TranslateService translateService = new(); // 🔥 thêm
+    TranslateService translateService = new();
 
     public DetailPage(FoodPlace p)
     {

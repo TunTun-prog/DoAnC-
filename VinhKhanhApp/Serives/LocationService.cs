@@ -6,20 +6,19 @@ public class LocationService
 {
     public event Action<Location>? OnLocationChanged;
 
-    bool isTracking = false;
+    CancellationTokenSource? cts;
 
     public async Task StartListening()
     {
-        if (isTracking) return;
+        if (cts != null) return;
 
-        isTracking = true;
+        cts = new CancellationTokenSource();
 
-        while (isTracking)
+        try
         {
-            try
+            while (!cts.IsCancellationRequested)
             {
-                if (DeviceInfo.Platform == DevicePlatform.Android ||
-                    DeviceInfo.Platform == DevicePlatform.iOS)
+                try
                 {
                     var location = await Geolocation.Default.GetLocationAsync(
                         new GeolocationRequest(GeolocationAccuracy.Medium));
@@ -32,15 +31,23 @@ public class LocationService
                         });
                     }
                 }
-            }
-            catch { }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.WriteLine(ex);
+                }
 
-            await Task.Delay(3000);
+                await Task.Delay(3000, cts.Token);
+            }
+        }
+        catch (TaskCanceledException)
+        {
+           
         }
     }
 
     public void Stop()
     {
-        isTracking = false;
+        cts?.Cancel();
+        cts = null;
     }
 }

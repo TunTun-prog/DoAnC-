@@ -12,16 +12,14 @@ public partial class HomePage : ContentPage
     List<FoodPlace> places = new();
     LocationService locationService = new();
     FoodService foodService = new();
-    TranslateService translateService = new(); // 🔥 thêm
+    TranslateService translateService = new();
 
     HashSet<string> spokenPlaces = new();
+    bool isLoaded = false;
 
     public HomePage()
     {
         InitializeComponent();
-
-        TitleLabel.Text = LocalizationService.Translate("title");
-        PauseBtn.Text = LocalizationService.Translate("pause");
 
         locationService.OnLocationChanged += OnLocationChanged;
     }
@@ -30,6 +28,18 @@ public partial class HomePage : ContentPage
     {
         base.OnAppearing();
 
+        if (!isLoaded)
+        {
+            isLoaded = true;
+            await LoadDataAsync();
+        }
+
+        TitleLabel.Text = LocalizationService.Translate("title");
+        PauseBtn.Text = LocalizationService.Translate("pause");
+    }
+
+    private async Task LoadDataAsync()
+    {
         try
         {
             places = await foodService.GetFoods();
@@ -54,7 +64,7 @@ public partial class HomePage : ContentPage
 
     async void OnLocationChanged(Location loc)
     {
-        if (loc == null) return;
+        if (loc == null || places == null) return;
 
         foreach (var p in places)
         {
@@ -63,17 +73,15 @@ public partial class HomePage : ContentPage
                 new Location(p.Latitude, p.Longitude),
                 DistanceUnits.Kilometers);
 
-            if (distance < 0.1 && !spokenPlaces.Contains(p.Name))
+            if (distance < 0.1 && spokenPlaces.Add(p.Name))
             {
-                spokenPlaces.Add(p.Name);
-
                 var translated = await translateService.Translate(
                     p.Description,
                     LocalizationService.CurrentLanguage);
 
-                MainThread.BeginInvokeOnMainThread(async () =>
+                MainThread.BeginInvokeOnMainThread(() =>
                 {
-                    await TTSService.Speak(translated);
+                    _ = TTSService.Speak(translated);
                 });
             }
         }
@@ -81,10 +89,8 @@ public partial class HomePage : ContentPage
 
     async void OnPlayClicked(object sender, EventArgs e)
     {
-        var btn = sender as Button;
-        var place = btn?.CommandParameter as FoodPlace;
-
-        if (place == null) return;
+        if ((sender as Button)?.CommandParameter is not FoodPlace place)
+            return;
 
         var translated = await translateService.Translate(
             place.Description,
@@ -95,10 +101,8 @@ public partial class HomePage : ContentPage
 
     async void OnDirectionClicked(object sender, EventArgs e)
     {
-        var btn = sender as Button;
-        var place = btn?.CommandParameter as FoodPlace;
-
-        if (place == null) return;
+        if ((sender as Button)?.CommandParameter is not FoodPlace place)
+            return;
 
         await Launcher.OpenAsync(
             $"https://www.google.com/maps/dir/?api=1&destination={place.Latitude},{place.Longitude}");
@@ -112,10 +116,23 @@ public partial class HomePage : ContentPage
 
     async void OnSelected(object sender, SelectionChangedEventArgs e)
     {
-        var place = e.CurrentSelection.FirstOrDefault() as FoodPlace;
+        if (e.CurrentSelection.FirstOrDefault() is not FoodPlace place)
+            return;
 
-        if (place == null) return;
+        ((CollectionView)sender).SelectedItem = null;
 
-        await Navigation.PushAsync(new DetailPage(place));
+        await MainThread.InvokeOnMainThreadAsync(async () =>
+        {
+            await Navigation.PushAsync(new DetailPage(place));
+        });
+    }
+
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+
+        locationService.OnLocationChanged -= OnLocationChanged;
+        locationService.Stop();
+        TTSService.Stop();
     }
 }

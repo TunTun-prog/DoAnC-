@@ -3,9 +3,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:models="clr-namespace:VinhKhanhApp.Models"
-    x:Class="VinhKhanhApp.Pages.HomePage"
-    x:DataType="x:Object">
-    <!-- 🔥 THÊM DÒNG NÀY -->
+    x:Class="VinhKhanhApp.Pages.HomePage">
 
     <VerticalStackLayout Padding="10" Spacing="10">
 
@@ -14,16 +12,18 @@
             FontSize="20"
             HorizontalOptions="Center"/>
 
-        <CollectionView x:Name="FoodList" SelectionChanged="OnSelected">
+        <CollectionView x:Name="FoodList"
+                        SelectionMode="Single"
+                        SelectionChanged="OnSelected">
+
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:FoodPlace">
 
-                    <Border
-                        Stroke="#ccc"
-                        StrokeThickness="1"
-                        StrokeShape="RoundRectangle 12"
-                        Padding="10"
-                        Margin="5">
+                    <Border Stroke="#ccc"
+                            StrokeThickness="1"
+                            StrokeShape="RoundRectangle 12"
+                            Padding="10"
+                            Margin="5">
 
                         <VerticalStackLayout>
 
@@ -35,11 +35,11 @@
 
                                 <Button Text="▶"
                                         Clicked="OnPlayClicked"
-                                        CommandParameter="{Binding}"/>
+                                        CommandParameter="{Binding}" />
 
                                 <Button Text="📍"
                                         Clicked="OnDirectionClicked"
-                                        CommandParameter="{Binding}"/>
+                                        CommandParameter="{Binding}" />
 
                             </HorizontalStackLayout>
 
