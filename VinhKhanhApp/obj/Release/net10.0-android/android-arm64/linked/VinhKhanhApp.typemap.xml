@@ -1,0 +1,8 @@
+<api type="release" assembly-name="VinhKhanhApp" mvid="ccaec599a6ba429f9799340763d21c18">
+  <module assembly-name="VinhKhanhApp" mvid="ccaec599a6ba429f9799340763d21c18" mvid-bytes="mcWuzLqmn0KXmTQHY9IcGA==">
+    <types-scratch>
+      <entry key="crc64f6d71881c6347fee/MainActivity" java-name="crc64f6d71881c6347fee/MainActivity" managed-type-name="VinhKhanhApp.MainActivity" token="33554441" />
+      <entry key="crc64f6d71881c6347fee/MainApplication" java-name="crc64f6d71881c6347fee/MainApplication" managed-type-name="VinhKhanhApp.MainApplication" token="33554442" />
+    </types-scratch>
+  </module>
+</api>

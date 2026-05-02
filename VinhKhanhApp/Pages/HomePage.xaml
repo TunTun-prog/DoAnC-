@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:VinhKhanhApp.Models"
+    x:Class="VinhKhanhApp.Pages.HomePage">
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <Label
+            x:Name="TitleLabel"
+            FontSize="20"
+            HorizontalOptions="Center"/>
+
+        <CollectionView x:Name="FoodList"
+                        SelectionMode="Single"
+                        SelectionChanged="OnSelected">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:FoodPlace">
+
+                    <Border Stroke="#ccc"
+                            StrokeThickness="1"
+                            StrokeShape="RoundRectangle 12"
+                            Padding="10"
+                            Margin="5">
+
+                        <VerticalStackLayout>
+
+                            <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold"/>
+                            <Label Text="{Binding Address}" FontSize="13"/>
+                            <Label Text="{Binding Rating, StringFormat='Rating: {0}'}"/>
+
+                            <HorizontalStackLayout Spacing="10">
+
+                                <Button Text="▶"
+                                        Clicked="OnPlayClicked"
+                                        CommandParameter="{Binding}" />
+
+                                <Button Text="📍"
+                                        Clicked="OnDirectionClicked"
+                                        CommandParameter="{Binding}" />
+
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+
+                    </Border>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button
+            x:Name="PauseBtn"
+            Text="Pause"
+            Clicked="OnPause"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
