@@ -35,6 +35,9 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Stats">Thống kê</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="QuayHangs" asp-action="MobileQr">QR Mobile App</a>
+                            </li>
                         }
                     </ul>
                     <partial name="_LoginPartial" />
@@ -44,35 +47,40 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row flex-nowrap">
             <!-- Sidebar (visible on md+) -->
-            <nav id="sidebar" class="col-md-2 d-none d-md-block bg-light sidebar pt-3">
-                <div class="position-sticky">
-                    <ul class="nav flex-column">
-                        @if (SignInManager.IsSignedIn(User))
-                        {
-                            <li class="nav-item mb-1">
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <nav id="sidebar" class="col-auto d-none d-md-block bg-light sidebar pt-3" style="min-height: calc(100vh - 120px);">
+                    <div class="position-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="QuayHangs" asp-action="Index">
                                     <i class="fa-solid fa-shop me-2"></i> Quầy Hàng
                                 </a>
                             </li>
-                            <li class="nav-item mb-1">
+                            <li class="nav-item mb-2">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Index">
                                     <i class="fa-solid fa-list-check me-2"></i> Lượt truy cập
                                 </a>
                             </li>
-                            <li class="nav-item mb-1">
+                            <li class="nav-item mb-2">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="AccessLog" asp-action="Stats">
                                     <i class="fa-solid fa-chart-simple me-2"></i> Thống kê
                                 </a>
                             </li>
-                        }
-                    </ul>
-                </div>
-            </nav>
+                            <li class="nav-item mb-2">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="QuayHangs" asp-action="MobileQr">
+                                    <i class="fa-solid fa-qrcode me-2"></i> QR Mobile App
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            }
 
             <!-- Main content -->
-            <main role="main" class="col-12 col-md-10 px-4 py-3">
+            <main role="main" class="col px-4 py-3">
                 @RenderBody()
             </main>
         </div>

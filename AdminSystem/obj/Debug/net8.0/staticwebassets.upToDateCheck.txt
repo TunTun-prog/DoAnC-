@@ -58,4 +58,6 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\uploads\quayhangs\98d96093-9183-4be3-aef1-b065d4cae617.jpg
+wwwroot\uploads\quayhangs\a4e18b3e-5ea8-4f33-8123-3829bd5f2ef1.jpg
 wwwroot\uploads\quayhangs\ae6b38a3-208d-4de1-81d6-6bb9f00e65ef.jpg

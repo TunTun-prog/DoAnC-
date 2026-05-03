@@ -12,7 +12,7 @@ public partial class DetailPage : ContentPage
     {
         InitializeComponent();
 
-        place = p;
+        place = p; 
 
         NameLabel.Text = p.Name;
         DescLabel.Text = p.Description;

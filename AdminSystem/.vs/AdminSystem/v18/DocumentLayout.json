@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\C#\\DoAnC-\\AdminSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\mobileqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\mobileqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\controllers\\quayhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:controllers\\quayhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\quayhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\controllers\\quayhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|solutionrelative:controllers\\quayhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2183EA77-CC6F-4FBF-9844-B276E499ACB1}|AdminSystem.csproj|d:\\c#\\doanc-\\adminsystem\\views\\quayhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -114,83 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\QuayHangs\\Create.cshtml",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Create.cshtml",
-              "RelativeToolTip": "Views\\QuayHangs\\Create.cshtml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAqwJcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-05T11:50:36.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\QuayHangs\\Details.cshtml",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Details.cshtml",
-              "RelativeToolTip": "Views\\QuayHangs\\Details.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-05T11:50:36.413Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-05T11:50:36.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:50:36.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:50:36.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAApwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:50:36.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\QuayHangs\\Index.cshtml",
@@ -203,7 +135,118 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
+              "Title": "QuayHangsController.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\QuayHangsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuayHangsController.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\QuayHangsController.cs",
+              "RelativeToolTip": "Controllers\\QuayHangsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAawC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MobileQr.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\MobileQr.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\MobileQr.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\MobileQr.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\MobileQr.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T16:43:36.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\Details.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Details.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuayHangs\\Create.cshtml",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Create.cshtml",
+              "RelativeToolTip": "Views\\QuayHangs\\Create.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAqwJcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:50:36.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAApwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:50:36.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "20260405105645_add_audio.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405105645_add_audio.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20260405105645_add_audio.cs",
@@ -215,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -227,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -239,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -251,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -263,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\QuayHangs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\QuayHangs\\Edit.cshtml",
@@ -275,19 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuayHangsController.cs",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\QuayHangsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QuayHangsController.cs",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\QuayHangsController.cs",
-              "RelativeToolTip": "Controllers\\QuayHangsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAswEYAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:50:36.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -299,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "20260315074827_AddQuayHang.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260315074827_AddQuayHang.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20260315074827_AddQuayHang.cs",
@@ -311,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -323,19 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-05T11:50:36.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20260405095742_update_map.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405095742_update_map.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20260405095742_update_map.cs",
@@ -347,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -359,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "QuayHang.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Models\\QuayHang.cs",
               "RelativeDocumentMoniker": "Models\\QuayHang.cs",
@@ -371,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20260405103515_add_image.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Data\\Migrations\\20260405103515_add_image.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20260405103515_add_image.cs",
@@ -383,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -395,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -407,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -419,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\C#\\DoAnC-\\AdminSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",

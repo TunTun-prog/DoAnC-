@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+3bR80hYBhc=",
+  "dgSpecHash": "Paj8XHxkJxk=",
   "success": true,
   "projectFilePath": "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.maui.graphics\\10.0.0\\microsoft.maui.graphics.10.0.0.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.maui.maps\\10.0.0\\microsoft.maui.maps.10.0.0.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.0\\microsoft.maui.resizetizer.10.0.0.nupkg.sha512",
-    "C:\\Users\\votha\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.6\\microsoft.net.illink.tasks.10.0.6.nupkg.sha512",
+    "C:\\Users\\votha\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.7\\microsoft.net.illink.tasks.10.0.7.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\xamarin.android.glide\\4.16.0.14\\xamarin.android.glide.4.16.0.14.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.14\\xamarin.android.glide.annotations.4.16.0.14.nupkg.sha512",
     "C:\\Users\\votha\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.16.0.14\\xamarin.android.glide.disklrucache.4.16.0.14.nupkg.sha512",

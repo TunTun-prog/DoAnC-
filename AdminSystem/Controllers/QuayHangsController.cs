@@ -30,6 +30,12 @@ namespace AdminSystem.Controllers
             return View(await _context.QuayHangs.ToListAsync());
         }
 
+        // GET: QuayHangs/MobileQr
+        public IActionResult MobileQr()
+        {
+            return View();
+        }
+
         // GET: QuayHangs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
