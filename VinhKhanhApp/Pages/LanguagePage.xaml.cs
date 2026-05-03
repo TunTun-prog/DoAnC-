@@ -12,17 +12,25 @@ public partial class LanguagePage : ContentPage
         InitializeComponent();
     }
 
-    async void ChangeLanguage(string lang)
+    async Task ChangeLanguage(string lang)
     {
-        LocalizationService.CurrentLanguage = lang;
+        try
+        {
+            LocalizationService.CurrentLanguage = lang;
 
-        
-        await Navigation.PushAsync(new HomePage());
+            // Use Application.Current.MainPage to ensure a navigation page is set
+            Application.Current.MainPage = new NavigationPage(new HomePage());
+        }
+        catch (Exception ex)
+        {
+            // Show a friendly error if navigation fails
+            await DisplayAlert("Error", ex.Message, "OK");
+        }
     }
 
-    void OnVN(object sender, EventArgs e) => ChangeLanguage("vi");
-    void OnEN(object sender, EventArgs e) => ChangeLanguage("en");
-    void OnDE(object sender, EventArgs e) => ChangeLanguage("de");
-    void OnJP(object sender, EventArgs e) => ChangeLanguage("ja");
-    void OnZH(object sender, EventArgs e) => ChangeLanguage("zh");
+    async void OnVN(object sender, EventArgs e) => await ChangeLanguage("vi");
+    async void OnEN(object sender, EventArgs e) => await ChangeLanguage("en");
+    async void OnDE(object sender, EventArgs e) => await ChangeLanguage("de");
+    async void OnJP(object sender, EventArgs e) => await ChangeLanguage("ja");
+    async void OnZH(object sender, EventArgs e) => await ChangeLanguage("zh");
 }

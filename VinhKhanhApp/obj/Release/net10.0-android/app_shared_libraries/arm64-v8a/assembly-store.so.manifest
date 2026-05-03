@@ -17,7 +17,7 @@
 0xc59ad9fbbd43abe di:40 mi:40 do:2257653 ds:573281 ddo:0 dds:0 cdo:0 cds:0 Mono.Android
 0x102a31b45304b1da di:102 mi:102 do:5232981 ds:5413 ddo:0 dds:0 cdo:0 cds:0 Xamarin.AndroidX.CustomView
 0x10f6cfcbcf801616 di:12 mi:12 do:188817 ds:12739 ddo:0 dds:0 cdo:0 cds:0 System.IO.Compression.Brotli
-0x1217e921f09a1402 di:127 mi:127 do:6042349 ds:44460 ddo:0 dds:0 cdo:0 cds:0 VinhKhanhApp
+0x1217e921f09a1402 di:127 mi:127 do:6042349 ds:44449 ddo:0 dds:0 cdo:0 cds:0 VinhKhanhApp
 0x125b7f94acb989db di:114 mi:114 do:5441366 ds:111978 ddo:0 dds:0 cdo:0 cds:0 Xamarin.AndroidX.RecyclerView.dll
 0x13f1e880c25d96d1 di:50 mi:50 do:2920916 ds:10001 ddo:0 dds:0 cdo:0 cds:0 he/Microsoft.Maui.Controls.resources
 0x143d8ea60a6a4011 di:79 mi:79 do:3214473 ds:15153 ddo:0 dds:0 cdo:0 cds:0 Microsoft.Extensions.DependencyInjection.Abstractions
@@ -230,7 +230,7 @@
 0xe0142572c095a480 di:95 mi:95 do:4863901 ds:150548 ddo:0 dds:0 cdo:0 cds:0 Xamarin.AndroidX.AppCompat.dll
 0xe02f89350ec78051 di:99 mi:99 do:5041059 ds:21491 ddo:0 dds:0 cdo:0 cds:0 Xamarin.AndroidX.CoordinatorLayout.dll
 0xe1a08bd3fa539e0d di:26 mi:26 do:736554 ds:2425 ddo:0 dds:0 cdo:0 cds:0 System.Runtime.Loader
-0xe23b809150c0937e di:127 mi:127 do:6042349 ds:44460 ddo:0 dds:0 cdo:0 cds:0 VinhKhanhApp.dll
+0xe23b809150c0937e di:127 mi:127 do:6042349 ds:44449 ddo:0 dds:0 cdo:0 cds:0 VinhKhanhApp.dll
 0xe2420585aeceb728 di:20 mi:20 do:529888 ds:4058 ddo:0 dds:0 cdo:0 cds:0 System.Net.Requests.dll
 0xe3811d68d4fe8463 di:62 mi:62 do:3040917 ds:9996 ddo:0 dds:0 cdo:0 cds:0 pt-BR/Microsoft.Maui.Controls.resources.dll
 0xe494f7ced4ecd10a di:53 mi:53 do:2950931 ds:10010 ddo:0 dds:0 cdo:0 cds:0 hu/Microsoft.Maui.Controls.resources.dll

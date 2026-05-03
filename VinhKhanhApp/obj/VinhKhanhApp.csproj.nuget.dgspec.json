@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj": {}
+    "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj": {
+    "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+        "projectUniqueName": "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj",
         "projectName": "VinhKhanhApp",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\obj\\",
+        "projectPath": "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj",
+        "packagesPath": "C:\\Users\\votha\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\DoAnC-\\VinhKhanhApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\votha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,13 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-android36.0": {
+          "net10.0-android": {
+            "framework": "net10.0-android36.0",
             "targetAlias": "net10.0-android",
             "projectReferences": {}
           },
-          "net10.0-ios26.2": {
+          "net10.0-ios": {
+            "framework": "net10.0-ios26.2",
             "targetAlias": "net10.0-ios",
             "projectReferences": {}
           }
@@ -54,7 +56,8 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net10.0-android36.0": {
+        "net10.0-android": {
+          "framework": "net10.0-android36.0",
           "targetAlias": "net10.0-android",
           "dependencies": {
             "Microsoft.Maui.Controls": {
@@ -68,7 +71,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.5, )",
+              "version": "[10.0.6, )",
               "autoReferenced": true
             }
           },
@@ -83,6 +86,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[10.0.5, 10.0.5]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -94,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -370,7 +379,8 @@
             "System.Xml.XPath.XDocument": "(,5.0.32767]"
           }
         },
-        "net10.0-ios26.2": {
+        "net10.0-ios": {
+          "framework": "net10.0-ios26.2",
           "targetAlias": "net10.0-ios",
           "dependencies": {
             "Microsoft.Maui.Controls": {
@@ -384,7 +394,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.5, )",
+              "version": "[10.0.6, )",
               "autoReferenced": true
             }
           },
@@ -399,6 +409,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[10.0.5, 10.0.5]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -410,7 +426,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -1,58 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\",
+  "WorkspaceRootPath": "D:\\C#\\DoAnC-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\languagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\languagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\languagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\languagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\languagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\pages\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\vinhkhanhapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\vinhkhanhapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\vinhkhanhapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\serives\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|c:\\users\\pc\\source\\repos\\vinhkhanhapp\\vinhkhanhapp\\serives\\translateservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\serives\\translateservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\serives\\translateservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\pages\\mappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\pages\\mappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|d:\\c#\\doanc-\\vinhkhanhapp\\resources\\raw\\map.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9E1D078-324F-3520-F009-563BE5CB71B8}|VinhKhanhApp\\VinhKhanhApp.csproj|solutionrelative:vinhkhanhapp\\resources\\raw\\map.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,88 +74,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "map.html",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Resources\\Raw\\map.html",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Resources\\Raw\\map.html",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Resources\\Raw\\map.html",
+              "RelativeToolTip": "VinhKhanhApp\\Resources\\Raw\\map.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-03T09:56:51.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MapPage.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\MapPage.xaml.cs",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\MapPage.xaml.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\MapPage.xaml.cs",
+              "RelativeToolTip": "VinhKhanhApp\\Pages\\MapPage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:56:35.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "VinhKhanhApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-03T09:53:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LocationService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\LocationService.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Serives\\LocationService.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Serives\\LocationService.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\LocationService.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Serives\\LocationService.cs",
               "RelativeToolTip": "VinhKhanhApp\\Serives\\LocationService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T02:14:54.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MapPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\MapPage.xaml",
-              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\MapPage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\MapPage.xaml",
-              "RelativeToolTip": "VinhKhanhApp\\Pages\\MapPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T02:14:13.399Z"
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "VinhKhanhApp\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:27:54.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\HomePage.xaml",
-              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\HomePage.xaml",
-              "RelativeToolTip": "VinhKhanhApp\\Pages\\HomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-11T13:16:29.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\HomePage.xaml.cs",
-              "RelativeToolTip": "VinhKhanhApp\\Pages\\HomePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T01:27:54.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LanguagePage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\LanguagePage.xaml",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\LanguagePage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\LanguagePage.xaml",
               "RelativeToolTip": "VinhKhanhApp\\Pages\\LanguagePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T01:31:22.651Z"
+              "WhenOpened": "2026-04-20T01:31:22.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DetailPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
-              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
-              "RelativeToolTip": "VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T01:29:00.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DetailPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\DetailPage.xaml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\DetailPage.xaml",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\DetailPage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\DetailPage.xaml",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\DetailPage.xaml",
               "RelativeToolTip": "VinhKhanhApp\\Pages\\DetailPage.xaml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowBgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -151,23 +168,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "LanguagePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
               "RelativeToolTip": "VinhKhanhApp\\Pages\\LanguagePage.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBcAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T00:01:17.535Z"
+              "WhenOpened": "2026-04-20T00:01:17.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "DetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
+              "RelativeToolTip": "VinhKhanhApp\\Pages\\DetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:29:00.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\HomePage.xaml",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "VinhKhanhApp\\Pages\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-11T13:16:29.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapPage.xaml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\MapPage.xaml",
+              "RelativeDocumentMoniker": "VinhKhanhApp\\Pages\\MapPage.xaml",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Pages\\MapPage.xaml",
+              "RelativeToolTip": "VinhKhanhApp\\Pages\\MapPage.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAABBwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T02:14:13.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\App.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\App.xaml.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\App.xaml.cs",
               "RelativeToolTip": "VinhKhanhApp\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,23 +230,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\App.xaml",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\App.xaml",
               "RelativeDocumentMoniker": "VinhKhanhApp\\App.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\App.xaml",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\App.xaml",
               "RelativeToolTip": "VinhKhanhApp\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T01:36:31.017Z"
+              "WhenOpened": "2026-04-20T01:36:31.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FoodService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\FoodService.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Serives\\FoodService.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Serives\\FoodService.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\FoodService.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Serives\\FoodService.cs",
               "RelativeToolTip": "VinhKhanhApp\\Serives\\FoodService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAQwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TranslateServie.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\TranslateServie.cs",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Serives\\TranslateServie.cs",
               "RelativeDocumentMoniker": "VinhKhanhApp\\Serives\\TranslateServie.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\VinhKhanhApp\\VinhKhanhApp\\Serives\\TranslateServie.cs",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\Serives\\TranslateServie.cs",
               "RelativeToolTip": "VinhKhanhApp\\Serives\\TranslateServie.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,14 +267,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "VinhKhanhApp",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+              "DocumentMoniker": "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj",
               "RelativeDocumentMoniker": "VinhKhanhApp\\VinhKhanhApp.csproj",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vinhkhanhapp\\VinhKhanhApp\\VinhKhanhApp.csproj",
+              "ToolTip": "D:\\C#\\DoAnC-\\VinhKhanhApp\\VinhKhanhApp.csproj",
               "RelativeToolTip": "VinhKhanhApp\\VinhKhanhApp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-11T14:05:36.723Z"
+              "WhenOpened": "2026-04-11T14:05:36.723Z",
+              "EditorCaption": ""
             }
           ]
         }

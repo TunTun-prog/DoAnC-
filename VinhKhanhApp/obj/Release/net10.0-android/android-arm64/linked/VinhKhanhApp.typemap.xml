@@ -1,5 +1,5 @@
-<api type="release" assembly-name="VinhKhanhApp" mvid="265e46637c0c4173ad16bafbcc8b2825">
-  <module assembly-name="VinhKhanhApp" mvid="265e46637c0c4173ad16bafbcc8b2825" mvid-bytes="Y0ZeJgx8c0GtFrr7zIsoJQ==">
+<api type="release" assembly-name="VinhKhanhApp" mvid="a5385edb51d04cc291e079d06dce81fc">
+  <module assembly-name="VinhKhanhApp" mvid="a5385edb51d04cc291e079d06dce81fc" mvid-bytes="2144pdBRwkyR4HnQbc6B/A==">
     <types-scratch>
       <entry key="crc64f6d71881c6347fee/MainActivity" java-name="crc64f6d71881c6347fee/MainActivity" managed-type-name="VinhKhanhApp.MainActivity" token="33554441" />
       <entry key="crc64f6d71881c6347fee/MainApplication" java-name="crc64f6d71881c6347fee/MainApplication" managed-type-name="VinhKhanhApp.MainApplication" token="33554442" />

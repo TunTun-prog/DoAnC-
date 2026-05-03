@@ -1,7 +1,9 @@
-﻿using Microsoft.Maui.Controls.Maps;
-using Microsoft.Maui.Devices.Sensors;
-using Microsoft.Maui.Maps;
+﻿using System.Globalization;
+using System.IO;
+using System.Net;
 using System.Runtime.Versioning;
+using System.Text.Json;
+using Microsoft.Maui.Storage;
 using VinhKhanhApp.Models;
 
 namespace VinhKhanhApp.Pages;
@@ -14,21 +16,32 @@ public partial class MapPage : ContentPage
     {
         InitializeComponent();
 
-        var location = new Location(place.Latitude, place.Longitude);
+        _ = LoadMapAsync(place);
+    }
 
-        var pin = new Pin
+    async Task LoadMapAsync(FoodPlace place)
+    {
+        try
         {
-            Label = place.Name,
-            Location = location
-        };
+            // Read map.html from app package (Resources/Raw)
+            using var stream = await FileSystem.OpenAppPackageFileAsync("map.html");
+            using var reader = new StreamReader(stream);
+            var html = await reader.ReadToEndAsync();
 
-        map.Pins.Add(pin);
+            // Inject numeric values using invariant culture and safely serialize label
+            var lat = place.Latitude.ToString(CultureInfo.InvariantCulture);
+            var lng = place.Longitude.ToString(CultureInfo.InvariantCulture);
+            var labelJson = JsonSerializer.Serialize(place.Name);
 
-        map.MoveToRegion(
-            MapSpan.FromCenterAndRadius(
-                location,
-                Distance.FromMeters(500)
-            )
-        );
+            html = html.Replace("__LAT__", lat)
+                       .Replace("__LNG__", lng)
+                       .Replace("__LABEL__", labelJson);
+
+            webView.Source = new HtmlWebViewSource { Html = html };
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Map error", ex.Message, "OK");
+        }
     }
 }
